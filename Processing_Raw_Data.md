@@ -11,7 +11,7 @@ There are two tissue biopsy samples belonging to pre-treatment (GSM8086070) and 
 ## Step-1: Login to Rivanna
 
 <code>
-ssh <computing_ID>@login.hpc.virginia.edu
+ssh computing_id@login.hpc.virginia.edu
 </code>
 
 ## Step-2: create a directory
