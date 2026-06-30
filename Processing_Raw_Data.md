@@ -21,9 +21,11 @@ cd Bioinformatics_Workshop
 </code>
 
 
-## Step-3: copy fastq files from following folder
+## Step-3: copy fastq files from following folder Or download from the UVa Box provided as the link
 <code>
-rsync -avPt 
+rsync -avPt /project/UVAPK-BX/Bioinformarics_Workshop_2026/fastq_pre-treatment.tar .
+
+rsync -avPt /project/UVAPK-BX/Bioinformarics_Workshop_2026/fastq_post-treatment.tar .
 </code>
 
 
