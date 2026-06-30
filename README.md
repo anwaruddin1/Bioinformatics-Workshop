@@ -25,3 +25,19 @@ A 3-Day Intensive Hands-On Workshop
   - Discussion and Troubleshooting
 
 Every concept is immediately followed by practical exercises.
+
+
+Day-1: Foundations of Single-Cell Data
+- Understanding Single-Cell Data
+- Quality Control, Ambient Correction & Doublet Detection
+- Normalization
+- Integration and Batch Correction
+- PCA Clustering & UMAP
+- Marker Analysis and Cell annotation
+- Differential Expression and Pseudobulk Analysis
+
+Day-2: Foundations of Spatial Transcriptomics
+- <WIP>
+
+Day-3: Advanced Session
+- Bring your own data and analyze with us and clarify doubts in real-time.
