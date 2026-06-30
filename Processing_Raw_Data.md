@@ -7,13 +7,19 @@ There are two tissue biopsy samples belonging to pre-treatment (GSM8086070) and 
 
 <code>
 ssh <computing_ID>@login.hpc.virginia.edu
+</code>
 
-### create a directory:
+## Step-2: create a directory
+<code>
 mkdir Bioinformatics_Workshop
 cd Bioinformatics_Workshop
-
-### copy fastq files from following folder
-rsync -avPt 
-
 </code>
+
+
+## Step-3: copy fastq files from following folder
+<code>
+rsync -avPt 
+</code>
+
+
 
