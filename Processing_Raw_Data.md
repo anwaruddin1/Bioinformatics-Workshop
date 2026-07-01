@@ -33,7 +33,18 @@ rsync -avPt /project/UVAPK-BX/Bioinformarics_Workshop_2026/fastq_post-treatment.
 tar -xvf fastq_pre-treatment.tar
 cd fastq_pre-treatment
 
-cellranger count --id=pretreatment --sample=pretreatment --fastqs=/project/UVABX-PK/Bioinformarics_Workshop_2026/GSM8086070 --transcriptome=/project/UVABX-PK/Bioinformarics_Workshop_2026/pbmc_1k_v3_fastqs/refdata-gex-GRCh38-2024-A --create-bam=false
+cellranger count --id=pretreatment --sample=pretreatment --fastqs=/project/UVABX-PK/Bioinformarics_Workshop_2026/ --transcriptome=/project/UVABX-PK/Bioinformarics_Workshop_2026/pbmc_1k_v3_fastqs/refdata-gex-GRCh38-2024-A --create-bam=false
+
+
+</code>
+
+
+## Step-5: Process post-treatment fastq files
+<code>
+tar -xvf fastq_post-treatment.tar
+cd fastq_post-treatment
+
+cellranger count --id=posttreatment --sample=posttreatment --fastqs=/project/UVABX-PK/Bioinformarics_Workshop_2026/ --transcriptome=/project/UVABX-PK/Bioinformarics_Workshop_2026/pbmc_1k_v3_fastqs/refdata-gex-GRCh38-2024-A --create-bam=false
 
 
 </code>
