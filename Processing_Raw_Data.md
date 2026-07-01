@@ -28,6 +28,11 @@ rsync -avPt /project/UVAPK-BX/Bioinformarics_Workshop_2026/fastq_pre-treatment.t
 rsync -avPt /project/UVAPK-BX/Bioinformarics_Workshop_2026/fastq_post-treatment.tar .
 </code>
 
+## Step-4: Download cell-ranger [reference dataset](https://www.10xgenomics.com/support/software/cell-ranger/downloads#reference-downloads)
+<code>
+wget "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz"
+</code>
+
 ## Step-4: Process pre-treatment fastq files
 <code>
 tar -xvf fastq_pre-treatment.tar
