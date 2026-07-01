@@ -33,7 +33,7 @@ rsync -avPt /project/UVAPK-BX/Bioinformarics_Workshop_2026/fastq_post-treatment.
 wget "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz"
 </code>
 
-## Step-4: Process pre-treatment fastq files
+## Step-5: Process pre-treatment fastq files
 <code>
 tar -xvf fastq_pre-treatment.tar
 cd fastq_pre-treatment
@@ -44,7 +44,7 @@ cellranger count --id=pretreatment --sample=pretreatment --fastqs=/project/UVABX
 </code>
 
 
-## Step-5: Process post-treatment fastq files
+## Step-6: Process post-treatment fastq files
 <code>
 tar -xvf fastq_post-treatment.tar
 cd fastq_post-treatment
