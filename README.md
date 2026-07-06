@@ -43,6 +43,6 @@ Day-3: Advanced Session
 - Bring your own data and analyze with us and clarify doubts in real-time.
 
 # Processing of Raw single-cell RNA-seq Data
-
-([`Processing_Raw_Data.md`](https://github.com/anwaruddin1/Bioinformatics-Workshop)
+([`Processing_Raw_Data.md`])
+#([`Processing_Raw_Data.md`](https://github.com/anwaruddin1/Bioinformatics-Workshop)
 
