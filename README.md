@@ -47,7 +47,7 @@ Day-3: Advanced Session
 ([`Processing_scRNAseq_Raw_Data`](Processing_scRNAseq_Raw_Data.md))
 
 ### Downstream Analyiss using Seurat Pipeline
-([`Downstream_scRNAseq_Seurat_Pipeline`](Downstream_scRNAseq_Seurat_Pipeline))
+([`Downstream_scRNAseq_Seurat_Pipeline`](Downstream_scRNAseq_Seurat_Pipeline.md))
 
 
 # Processing of Raw spatial Data
