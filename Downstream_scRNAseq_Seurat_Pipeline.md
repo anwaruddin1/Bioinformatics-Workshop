@@ -2,7 +2,7 @@
 
 ## Step-1: Login to your personal Google Colab account.
 
-## Step-2: Download 
+## Step-2: Download R Notebook
 
 ([`01_scRNAseq_analysis.ipynb Notebook`](01_scRNAseq_analysis.ipynb) and open it in Google colab)
 
