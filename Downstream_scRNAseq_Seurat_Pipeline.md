@@ -13,4 +13,4 @@ Move the R_library.tar.gz and cellranger_output.tar to the files section in goog
 
 </code>
 
-!\[Place the two files here as shown here in the screenshot\](Bioinformatics-Workshop/Google_colab_screenshot.jpg)
+![Place the two files here as shown here in the screenshot](Bioinformatics-Workshop/Google_colab_screenshot.jpg)
