@@ -2,10 +2,10 @@
 
 There are two tissue biopsy samples belonging to pre-treatment (GSM8086070) and post-treaement (GSM8086066) scRNA-seq which will be processed through cellranger tool and use the results for the downstream analysis using seurat pipeline.
 
-|  sample |  fastq name   |   Source    |
-| :---: | :-----------: | :----------:|
-| 1 | SRR28016090 | GSM8086070 |
-| 2 | SRR28016098 | GSM8086066 |
+|  sample |  fastq name   |   Source    | sample info |
+| :---: | :-----------: | :----------:| :----------: |
+| 1 | SRR28016090 | GSM8086070 | pre-treatment |
+| 2 | SRR28016098 | GSM8086066 | post-treatment |
 
 
 ## Step-1: Login to Rivanna
