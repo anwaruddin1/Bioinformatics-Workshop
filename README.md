@@ -42,8 +42,13 @@ Day-2: Foundations of Spatial Transcriptomics
 Day-3: Advanced Session
 - Bring your own data and analyze with us and clarify doubts in real-time.
 
-# Processing of Raw single-cell RNA-seq Data
+# Single-Cell RNA-seq Data Analysis
+### Raw Data Processing using CellRanger
 ([`Processing_scRNAseq_Raw_Data.md`](Processing_scRNAseq_Raw_Data.md))
+
+### Downstream Analyiss using Seurat Pipeline
+([`Downstream_scRNAseq_Seurat_Pipeline.md`](Downstream_scRNAseq_Seurat_Pipeline.md))
+
 
 # Processing of Raw spatial Data
 ([`Processing_spatial_Raw_Data.md`](Processing_spatial_Raw_Data.md))
