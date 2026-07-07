@@ -7,8 +7,8 @@
 ([`01_scRNAseq_analysis.ipynb Notebook`](01_scRNAseq_analysis.ipynb) and open it in Google colab)
 
 
-## Step-3: copy R_library.tar.gz file from UVa Box folder: [Bioinformatics Workshop](https://virginia.app.box.com/folder/395515355319) provided as the link
+## Step-3: copy R_library.tar.gz and cellranger_coutput.tar files from UVa Box folder: [Bioinformatics Workshop](https://virginia.app.box.com/folder/395515355319) provided as the link
 <code>
-Move the R_library.tar.gz to the files section in google colab.
+Move the R_library.tar.gz and cellranger_output.tar to the files section in google colab.
 
 </code>
