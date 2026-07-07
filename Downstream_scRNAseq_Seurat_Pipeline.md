@@ -3,7 +3,8 @@
 ## Step-1: Login to your personal Google Colab account.
 
 ## Step-2: Download 
-01_scRNAseq_analysis.ipynb
+
+([`01_scRNAseq_analysis.ipynb Notebook`](01_scRNAseq_analysis.ipynb) and open it in Google colab)
 
 
 ## Step-3: copy R_library.tar.gz file from UVa Box folder: [Bioinformatics Workshop](https://virginia.app.box.com/folder/395515355319) provided as the link
