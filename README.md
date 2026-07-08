@@ -14,9 +14,7 @@ A 3-Day Intensive Hands-On Workshop
   - Guided exercises and practice problems
   - Publication-oriented analysis
   - Individual support from instructors
-  - Publication quality image creation
-  - Avoiding methods related reviewer comments and rejections
-  - Complete code and workbook included
+  - Complete code and notebook
 
 **Workshop Format**
   - Short Theory Session (15–20 min)
@@ -29,6 +27,7 @@ Every concept is immediately followed by practical exercises.
 
 Day-1: Foundations of Single-Cell Data
 - Understanding Single-Cell Data
+- Processing Raw data (fastq files)
 - Quality Control, Ambient Correction & Doublet Detection
 - Normalization
 - Integration and Batch Correction
@@ -37,7 +36,10 @@ Day-1: Foundations of Single-Cell Data
 - Differential Expression and Pseudobulk Analysis
 
 Day-2: Foundations of Spatial Transcriptomics
-- <WIP>
+- Understanding Single-Cell Data
+- Processing raw data (fastq files, image and cytassit files)
+- Quality Control, Ambient Correction & Doublet Detection
+- 
 
 Day-3: Advanced Session
 - Bring your own data and analyze with us and clarify doubts in real-time.
