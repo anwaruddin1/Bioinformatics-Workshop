@@ -36,10 +36,12 @@ Day-1: Foundations of Single-Cell Data
 - Differential Expression and Pseudobulk Analysis
 
 Day-2: Foundations of Spatial Transcriptomics
-- Understanding Single-Cell Data
+- Understanding Spatial Data
 - Processing raw data (fastq files, image and cytassit files)
-- Quality Control, Ambient Correction & Doublet Detection
-- 
+- Seurat pipeline for normalization, integration, PCA and clustering.
+- Marker analysis and cell annotation
+- Differntial expression analyisis
+- Cell-cell communitation analysis
 
 Day-3: Advanced Session
 - Bring your own data and analyze with us and clarify doubts in real-time.
