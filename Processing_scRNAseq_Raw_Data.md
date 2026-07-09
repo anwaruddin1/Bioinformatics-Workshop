@@ -10,34 +10,35 @@ Reference: Lin SH et al., Plinabulin following radiation enhances dendritic cell
 | 2 | SRR28016098 | GSM8086066 | post-treatment |
 
 
-## Step-1: Login to Rivanna
+## Step-1: copy cellranger_data.tar.gz file from UVa Box folder: [Bioinformatics Workshop](https://virginia.app.box.com/folder/395515355319) provided as the link
 
-<code>
-ssh computing_id@login.hpc.virginia.edu
-</code>
 
-## Step-2: create a directory
+## Step-2: Login to UVa Rivanna via OnDemand or Terminal
+
+Using OnDemand: Login to [UVa OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy the cellranger_data.tar.gz to a directory in /home/<username>/.
+
+Using Terminal : ssh computing_id@login.hpc.virginia.edu
+
+## Step-3: create a directory
 <code>
 mkdir Bioinformatics_Workshop
 cd Bioinformatics_Workshop
 </code>
 
+## Step-4: Copy files to the UVa Rivanna 
+Paste cellranger_data.tar.gz in Bioinformatics_Workshop folder
 
-## Step-3: copy cellranger_data.tar.gz file from UVa Box folder: [Bioinformatics Workshop](https://virginia.app.box.com/folder/395515355319) provided as the link
 <code>
 tar -xvf cellranger_data.tar.gz
-
 </code>
 
-## Step-4: Download cell-ranger [reference dataset](https://www.10xgenomics.com/support/software/cell-ranger/downloads#reference-downloads)
+## Step-5: Download cell-ranger [reference dataset](https://www.10xgenomics.com/support/software/cell-ranger/downloads#reference-downloads)
+Download refdata-gex-GRCh38-2024-A.tar.gz in Bioinformatics_Workshop folder
 <code>
 wget "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz"
+tar -zxvf refdata-gex-GRCh38-2024-A.tar.gz
 </code>
 
-## Step-5: Copy files to the UVa Rivanna 
-
-
-Login to [UVa OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy the files to a directory in /home/<username>/.
 
 ## Step-6: Process pre-treatment fastq files
 <code>
