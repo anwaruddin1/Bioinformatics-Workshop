@@ -34,7 +34,14 @@ tar -xvf cellranger_data.tar.gz
 wget "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz"
 </code>
 
-## Step-5: Process pre-treatment fastq files
+## Step-5: Copy files to the UVa Rivanna 
+
+<code>
+Login to UVa OpenOnDemand Rivanna site
+
+</code>
+
+## Step-6: Process pre-treatment fastq files
 <code>
 cd cellranger_data/pretreatment
 
@@ -43,7 +50,7 @@ sbatch cellranger.slurm
 </code>
 
 
-## Step-6: Process post-treatment fastq files
+## Step-7: Process post-treatment fastq files
 <code>
 cd cellranger_data/posttreatment
 
