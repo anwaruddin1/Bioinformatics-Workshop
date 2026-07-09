@@ -1,6 +1,7 @@
 ## About the Dataset
 
 There are two tissue biopsy samples belonging to pre-treatment (GSM8086070) and post-treaement (GSM8086066) scRNA-seq from the project "Accession: PRJNA1078290: Immune Re-sensitization in Checkpoint Inhibitor Refractory and Relapsed Cancers with Plinabulin, Radiation and Immune Checkpoint Blockade (human)" which will be processed through cellranger tool and use the results for the downstream analysis using seurat pipeline.
+
 Reference: Lin SH et al., Plinabulin following radiation enhances dendritic cell maturation and checkpoint inhibitor retreatment of relapsed/refractory cancers.", Med, 2025 Oct 10;6(10):100752
 
 |  sample |  fastq name   |   Source    | sample info |
