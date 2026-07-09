@@ -45,7 +45,7 @@ sbatch cellranger.slurm
 
 ## Step-6: Process post-treatment fastq files
 <code>
-cd cellranger_data/pretreatment
+cd cellranger_data/posttreatment
 
 sbatch cellranger.slurm
 
