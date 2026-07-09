@@ -36,10 +36,11 @@ wget "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz"
 
 ## Step-5: Copy files to the UVa Rivanna 
 
-<code>
-Login to UVa OpenOnDemand Rivanna site
 
-</code>
+Login to UVa OpenOnDemand Rivanna site
+https://ood.hpc.virginia.edu/pun/sys/dashboard
+([`UVa OpenOnDemand Rivanna site`](https://ood.hpc.virginia.edu/pun/sys/dashboard) )
+
 
 ## Step-6: Process pre-treatment fastq files
 <code>
