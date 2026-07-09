@@ -15,11 +15,9 @@ Reference: Lin SH et al., Plinabulin following radiation enhances dendritic cell
 
 ## Step-2: Login to UVa Rivanna via OnDemand or Terminal
 
-Option-1
-Using OnDemand: Login to [UVa OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy the cellranger_data.tar.gz to a directory in /home/<username>/.
+Option-1: Using OnDemand: Login to [UVa OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy the cellranger_data.tar.gz to a directory in /home/<username>/.
 
-Option-2
-Using Terminal : ssh computing_id@login.hpc.virginia.edu
+Option-2: Using Terminal : ssh computing_id@login.hpc.virginia.edu
 
 ## Step-3: create a directory
 <code>
