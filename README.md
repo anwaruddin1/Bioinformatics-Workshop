@@ -23,6 +23,7 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
   - [Day 3: Spatial Transcriptomics](#day-3-spatial-transcriptomics)
 - [Key Topics](#key-topics)
 - [Datasets](#datasets)
+- [Getting Started — Where to Begin](#Getting-Started-—-Where-to-Begin)
 - [Abbreviations](#abbreviations)
 - [Contact](#contact)
 
