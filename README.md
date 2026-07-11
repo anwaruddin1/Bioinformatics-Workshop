@@ -122,10 +122,10 @@ By the end of this workshop, participants will be able to:
 
 ## Datasets
 
-| Analysis | Dataset | Platform | Used In | Link |
-|---|---|---|---|---|
-|scRNA-seq| Lin SH et al., Med, 2025 Oct 10;6(10):100752 | 10x Genomics | Day 1–2 | *[PRJNA1078290](https://www.ncbi.nlm.nih.gov/search/all/?term=PRJNA1078290)* |
-|Spatial Data| Visium tissue dataset | 10x Visium | Day 3 | *add link* |
+| Analysis | Dataset | Platform | Data Source | Used In | Link |
+|---|---|---|---|---|---|
+|scRNA-seq| Lin SH et al., Med, 2025 Oct 10;6(10):100752 | 10x Genomics | GEO/SRA Datasets | Day 1–2 | *[PRJNA1078290](https://www.ncbi.nlm.nih.gov/search/all/?term=PRJNA1078290)* |
+|Spatial Data| Visium tissue dataset | 10x Visium | 10x Genomics | Day 3 | *add link* |
 
 ---
 
