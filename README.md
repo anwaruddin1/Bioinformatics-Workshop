@@ -139,7 +139,35 @@ By the end of this workshop, participants will be able to:
 | DE | Differential Expression | SCT | SCTransform (normalization method) |
 | HVG | Highly Variable Genes | FFPE | Formalin-Fixed Paraffin-Embedded (tissue) |
 
+
 ---
+
+## Getting Started — Where to Begin
+
+This workshop builds sequentially — Day 1's Cell Ranger output feeds directly into Day 2's Seurat analysis.
+
+### 🧬 Day 1 — Start Here: Processing the Raw Dataset
+
+📄 **[Processing Raw scRNA-seq Data with Cell Ranger on UVA Rivanna](./day1_intro_scRNAseq/01_Processing_scRNAseq_RawData_CellRanger.md)**
+
+Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM8086070, GSM8086066) through Cell Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
+
+### 🔬 Day 2 — Downstream Analysis, Annotation & Dynamics
+
+📄 **[Day 2 Notebook — Coming Soon]()**
+
+Cell type annotation, differential expression between pre- and post-treatment samples, trajectory inference, and cell-cell communication analysis, built on the Day 1 Cell Ranger output.
+
+### 🧫 Day 3 — Spatial Transcriptomics
+
+📄 **[Day 3 Analysis & Notebook — Coming Soon]()**
+
+Spatial data QC, deconvolution, and integration with the scRNA-seq reference from Days 1–2, culminating in the final group project.
+
+---
+
+
+
 
 ## Contact
 
