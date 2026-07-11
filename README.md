@@ -90,9 +90,9 @@ By the end of this workshop, participants will be able to:
 |---|---|
 | 9:00 – 10:00 AM | Lecture |
 | 10:00 – 10:15 AM | Break |
-| 10:15 AM – 12:00 PM | Lab Part 1 — Annotation and differential expression |
+| 10:15 AM – 12:00 PM | Practice Part 1 — Annotation and differential expression |
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 4:00 PM | Lab Part 2 — Trajectory inference and cell–cell communication (NicheNet) |
+| 12:30 – 4:00 PM | Practice Part 2 — Trajectory inference and cell–cell communication (NicheNet) |
 
 ### Day 3: Spatial Transcriptomics
 *Platform Overview · Spatial QC · Normalization · Marker Analysis · cell type annotation · pseudobulk Analyis · cell-cell communication · Wrap-up*
@@ -101,9 +101,9 @@ By the end of this workshop, participants will be able to:
 |---|---|
 | 9:00 – 10:00 AM | Lecture |
 | 10:00 – 10:15 AM | Break |
-| 10:15 AM – 12:00 PM | Lab Part 1 — Spatial data QC and processing |
+| 10:15 AM – 12:00 PM | Practice Part 1 — Spatial data QC and processing |
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 3:30 PM | Lab Part 2 — Seurat Pre-processing, Normalization, and Marker Analyis, Cell type annotation |
+| 12:30 – 3:30 PM | Practice Part 2 — Seurat Pre-processing, Normalization, and Marker Analyis, Cell type annotation |
 | 3:30 – 4:00 PM | Cell type annotation, pseudobulk analysis, cell-cell communication |
 
 ---
@@ -148,7 +148,8 @@ This workshop builds sequentially — Day 1's Cell Ranger output feeds directly 
 
 ### 🧬 Day 1 — Start Here: Processing the Raw Dataset
 
-📄 **[Processing Raw scRNA-seq Data with Cell Ranger on UVA Rivanna](./day1_intro_scRNAseq/01_Processing_scRNAseq_RawData_CellRanger.md)**
+📄 **[Processing Raw scRNA-seq Data with Cell Ranger on UVA Rivanna](Processing_scRNAseq_Raw_Data.md)**
+📄 **[Processing Cell Ranger on Google Colab Cloud (Seurat Pipeline)](Downstream_scRNAseq_Seurat_Pipeline.md)**
 
 Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM8086070, GSM8086066) through Cell Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
 
