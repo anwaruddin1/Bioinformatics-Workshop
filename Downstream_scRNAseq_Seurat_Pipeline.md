@@ -1,11 +1,11 @@
 # Downstream Single-Cell RNA-seq Analysis Using the Seurat Pipeline in Google Colab
 
-This page walks through setting up Google Colab to run the Seurat downstream analysis pipeline on the Cell Ranger output generated in [Day 1](./01_Processing_scRNAseq_RawData_CellRanger.md). By the end of this setup, you'll have a Colab environment with R, Seurat, and your data ready for analysis.
+This page walks through setting up Google Colab to run the Seurat downstream analysis pipeline on the Cell Ranger output generated in [Day 1](./Processing_scRNAseq_Raw_Data.md). By the end of this setup, you'll have a Colab environment with R, Seurat, and your data ready for analysis.
 
 ## Prerequisites
 
 - A personal Google account (for Google Colab and Google Drive)
-- Completed [Day 1: Processing Raw scRNA-seq Data with Cell Ranger](./01_Processing_scRNAseq_RawData_CellRanger.md), or access to the pre-generated `cellranger_output.tar` file
+- Completed [Day 1: Processing Raw scRNA-seq Data with Cell Ranger](./Processing_scRNAseq_Raw_Data.md), or access to the pre-generated `cellranger_output.tar` file
 - A modern web browser
 
 ---
