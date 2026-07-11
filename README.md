@@ -123,10 +123,9 @@ By the end of this workshop, participants will be able to:
 ## Datasets
 
 | Dataset | Platform | Used In | Link |
-|---|---|---|---|
-| PBMC 10x dataset | 10x Chromium | Day 1–2 | *add link* |
-| Differentiation time-course | 10x Chromium | Day 2 (trajectory) | *add link* |
-| Visium/Xenium tissue dataset | 10x Visium / Xenium | Day 3 | *add link* |
+|---|---|---|---|---|
+|Single-cell RNA-seq Data| Lin SH et al., Med, 2025 Oct 10;6(10):100752 | 10x Genomics | Day 1–2 | *[PRJNA1078290](https://www.ncbi.nlm.nih.gov/search/all/?term=PRJNA1078290)* |
+|Spatial Data| Visium tissue dataset | 10x Visium | Day 3 | *add link* |
 
 ---
 
