@@ -148,8 +148,9 @@ This workshop builds sequentially — Day 1's Cell Ranger output feeds directly 
 
 ### 🧬 Day 1 — Start Here: Processing the Raw Dataset
 
-📄 **[Processing Raw scRNA-seq Data with Cell Ranger on UVA Rivanna](Processing_scRNAseq_Raw_Data.md)**
-📄 **[Processing Cell Ranger on Google Colab Cloud (Seurat Pipeline)](Downstream_scRNAseq_Seurat_Pipeline.md)**
+- 📄 **[Processing Raw scRNA-seq Data with Cell Ranger on UVA Rivanna](Processing_scRNAseq_Raw_Data.md)**
+
+- 📄 **[Processing Cell Ranger on Google Colab Cloud (Seurat Pipeline)](Downstream_scRNAseq_Seurat_Pipeline.md)**
 
 Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM8086070, GSM8086066) through Cell Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
 
