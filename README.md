@@ -67,7 +67,7 @@ By the end of this workshop, participants will be able to:
 
 **Prerequisites:** Basic familiarity with R and the command line is recommended but not mandatory. No prior single-cell analysis experience required. Participants should bring a laptop.
 
----
+
 
 ## Repository Structure# Single-Cell RNA-seq Data Analysis
 
