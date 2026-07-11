@@ -166,7 +166,7 @@ Cell type annotation, differential expression between pre- and post-treatment sa
 
 📄 **[Day 3 Analysis & Notebook — Coming Soon]()**
 
-Spatial data QC, deconvolution, and integration with the scRNA-seq reference from Days 1–2, culminating in the final group project.
+Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, cell-cell communication.
 
 ---
 
