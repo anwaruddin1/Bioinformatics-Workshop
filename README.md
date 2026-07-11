@@ -176,7 +176,7 @@ Spatial data QC, deconvolution, and integration with the scRNA-seq reference fro
 ## Contact
 
 **UVA Bioinformatics Core**
-📍 *Room/Building — add location*
+📍 *1312 Pinn Hall*
 ✉️ *add contact email*
 🌐 *[uva bioinformatics core](https://med.virginia.edu/bioinformatics-core/)*
 
