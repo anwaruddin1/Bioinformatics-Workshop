@@ -69,28 +69,8 @@ By the end of this workshop, participants will be able to:
 
 
 
-## Repository Structure# Single-Cell RNA-seq Data Analysis
+# Single-Cell RNA-seq Data Analysis
 
-├── day1_intro_scRNAseq/
-│   ├── notebooks/
-│   ├── data/
-│   └── README.md
-├── day2_annotation_dynamics/
-│   ├── notebooks/
-│   ├── data/
-│   └── README.md
-├── day3_spatial_transcriptomics/
-│   ├── notebooks/
-│   ├── data/
-│   └── README.md
-├── environment/
-│   ├── renv.lock
-│   └── setup.R
-└── README.md
-
-> Adjust the tree above to match your actual folder layout.
-
----
 
 ## Setup Instructions
 
