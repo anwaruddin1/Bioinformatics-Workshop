@@ -183,20 +183,3 @@ Spatial data QC, deconvolution, and integration with the scRNA-seq reference fro
 ---
 
 *Materials developed and maintained by the UVA Bioinformatics Core. For educational use.*
-
-
-
-
-
-### Raw Data Processing using CellRanger
-([`Processing_scRNAseq_Raw_Data`](Processing_scRNAseq_Raw_Data.md))
-
-### Downstream Analyiss using Seurat Pipeline
-([`Downstream_scRNAseq_Seurat_Pipeline`](Downstream_scRNAseq_Seurat_Pipeline.md))
-
-
-# Processing of Raw spatial Data
-([`Processing_spatial_Raw_Data.md`](Processing_spatial_Raw_Data.md))
-
-
-
