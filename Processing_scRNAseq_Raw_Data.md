@@ -1,59 +1,71 @@
+# Processing Raw scRNA-seq Data with Cell Ranger on UVA Rivanna
+
+This page walks through processing raw scRNA-seq FASTQ files with Cell Ranger on UVA's Rivanna HPC system, producing output ready for downstream analysis in the Seurat pipeline.
+
 ## About the Dataset
 
-There are two tissue biopsy samples belonging to pre-treatment (GSM8086070) and post-treaement (GSM8086066) scRNA-seq from the project "Accession: PRJNA1078290: Immune Re-sensitization in Checkpoint Inhibitor Refractory and Relapsed Cancers with Plinabulin, Radiation and Immune Checkpoint Blockade (human)" which will be processed through cellranger tool and use the results for the downstream analysis using seurat pipeline.
+This workshop uses two tissue biopsy samples — one pre-treatment (GSM8086070) and one post-treatment (GSM8086066) — from the scRNA-seq project **PRJNA1078290: "Immune Re-sensitization in Checkpoint Inhibitor Refractory and Relapsed Cancers with Plinabulin, Radiation and Immune Checkpoint Blockade (human)."** Raw reads will be processed with Cell Ranger, and the resulting count matrices will be used for downstream analysis with the Seurat pipeline.
 
-Reference: Lin SH et al., Plinabulin following radiation enhances dendritic cell maturation and checkpoint inhibitor retreatment of relapsed/refractory cancers.", Med, 2025 Oct 10;6(10):100752
+**Reference:** Lin SH et al., "Plinabulin following radiation enhances dendritic cell maturation and checkpoint inhibitor retreatment of relapsed/refractory cancers." *Med*, 2025 Oct 10;6(10):100752.
 
-|  sample |  fastq name   |   Source    | sample info |
-| :---: | :-----------: | :----------:| :----------: |
-| 1 | SRR28016090 | GSM8086070 | pre-treatment |
-| 2 | SRR28016098 | GSM8086066 | post-treatment |
+| Sample | FASTQ Name  | Source     | Sample Info    |
+|:------:|:-----------:|:----------:|:--------------:|
+| 1      | SRR28016090 | GSM8086070 | Pre-treatment  |
+| 2      | SRR28016098 | GSM8086066 | Post-treatment |
 
+---
 
-## Step-1: copy cellranger_data.tar.gz file from UVa Box folder: [Bioinformatics Workshop](https://virginia.app.box.com/folder/395515355319) provided as the link
+## Step 1: Copy the Cell Ranger Data from UVA Box
 
+Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop](https://virginia.app.box.com/folder/395515355319).
 
-## Step-2: Login to UVa Rivanna via OnDemand or Terminal
+## Step 2: Log in to UVA Rivanna
 
-Using OnDemand: Login to [UVa OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy the cellranger_data.tar.gz to a directory in /home/<username>/.
+**Option A — OpenOnDemand:** Log in to the [UVA OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy `cellranger_data.tar.gz` into a directory under `/home/<username>/`.
 
-Optionally you can use Terminal to do following following task and login using: ssh computing_id@login.hpc.virginia.edu
+**Option B — Terminal:** Log in directly via SSH:
+```bash
+ssh computing_id@login.hpc.virginia.edu
+```
 
-## Step-3: create a directory
-<code>
+## Step 3: Create a Working Directory
+
+```bash
 mkdir Bioinformatics_Workshop
 cd Bioinformatics_Workshop
-</code>
+```
 
-## Step-4: Copy files to the UVa Rivanna 
-Paste cellranger_data.tar.gz in Bioinformatics_Workshop folder
+## Step 4: Extract the Cell Ranger Data
 
-<code>
+Place `cellranger_data.tar.gz` in the `Bioinformatics_Workshop` folder, then extract it:
+
+```bash
 tar -xvf cellranger_data.tar.gz
-</code>
+```
 
-## Step-5: Download cell-ranger [reference dataset](https://www.10xgenomics.com/support/software/cell-ranger/downloads#reference-downloads)
-Download refdata-gex-GRCh38-2024-A.tar.gz in Bioinformatics_Workshop folder
-<code>
+## Step 5: Download the Cell Ranger Reference Dataset
+
+Download the [reference dataset](https://www.10xgenomics.com/support/software/cell-ranger/downloads#reference-downloads) into the `Bioinformatics_Workshop` folder:
+
+```bash
 wget "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz"
 tar -zxvf refdata-gex-GRCh38-2024-A.tar.gz
-</code>
+```
 
+## Step 6: Process the Pre-Treatment FASTQ Files
 
-## Step-6: Process pre-treatment fastq files
-<code>
+```bash
 cd cellranger_data/pretreatment
-
 sbatch cellranger.slurm
+```
 
-</code>
+## Step 7: Process the Post-Treatment FASTQ Files
 
-
-## Step-7: Process post-treatment fastq files
-<code>
+```bash
 cd cellranger_data/posttreatment
-
 sbatch cellranger.slurm
+```
 
-</code>
+---
 
+Once both jobs complete, the Cell Ranger output (filtered feature-barcode matrices) for each sample will be ready for import into the Seurat pipeline for downstream analysis.
