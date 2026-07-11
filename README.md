@@ -70,6 +70,136 @@ By the end of this workshop, participants will be able to:
 ---
 
 ## Repository Structure# Single-Cell RNA-seq Data Analysis
+
+├── day1_intro_scRNAseq/
+│   ├── notebooks/
+│   ├── data/
+│   └── README.md
+├── day2_annotation_dynamics/
+│   ├── notebooks/
+│   ├── data/
+│   └── README.md
+├── day3_spatial_transcriptomics/
+│   ├── notebooks/
+│   ├── data/
+│   └── README.md
+├── environment/
+│   ├── renv.lock
+│   └── setup.R
+└── README.md
+
+> Adjust the tree above to match your actual folder layout.
+
+---
+
+## Setup Instructions
+
+1. Clone this repository:
+```bash
+   git clone https://github.com/<your-org>/<your-repo>.git
+   cd <your-repo>
+```
+2. Install R (≥ 4.3) and RStudio, or use the provided cloud notebook environment (UVA Rivanna / Google Colab link — *add link here*).
+3. Restore the R environment:
+```r
+   install.packages("renv")
+   renv::restore()
+```
+4. Launch the Day 1 notebook to confirm your setup:
+```r
+   rmarkdown::render("day1_intro_scRNAseq/notebooks/00_setup_check.Rmd")
+```
+
+---
+
+## Schedule
+
+### Day 1: Introduction to Single-Cell RNA-seq
+*Technology Overview · QC & Preprocessing · First Clustering*
+
+| Time | Activity |
+|---|---|
+| 9:00 – 10:00 AM | Lecture |
+| 10:00 – 10:15 AM | Break |
+| 10:15 AM – 12:00 PM | Lab Part 1 — Environment setup, data loading, QC filtering, ambient correction, doublet detection |
+| 12:00 – 12:30 PM | Lunch |
+| 12:30 – 4:00 PM | Lab Part 2 — Integration, normalization, clustering, UMAP |
+
+### Day 2: Downstream Analysis, Annotation & Dynamics
+*Cell Type Annotation · Differential Expression · Trajectory Inference · Cell–Cell Communication*
+
+| Time | Activity |
+|---|---|
+| 9:00 – 10:00 AM | Lecture |
+| 10:00 – 10:15 AM | Break |
+| 10:15 AM – 12:00 PM | Lab Part 1 — Annotation and differential expression |
+| 12:00 – 12:30 PM | Lunch |
+| 12:30 – 4:00 PM | Lab Part 2 — Trajectory inference and cell–cell communication (NicheNet) |
+
+### Day 3: Spatial Transcriptomics
+*Platform Overview · Spatial QC · Deconvolution · Integration with scRNA-seq · Final Project*
+
+| Time | Activity |
+|---|---|
+| 9:00 – 10:00 AM | Lecture |
+| 10:00 – 10:15 AM | Break |
+| 10:15 AM – 12:00 PM | Lab Part 1 — Spatial data QC and processing |
+| 12:00 – 12:30 PM | Lunch |
+| 12:30 – 3:30 PM | Lab Part 2 — Deconvolution, integration, and figures |
+| 3:30 – 4:00 PM | Group project presentations, Q&A, certificate distribution |
+
+---
+
+## Key Topics
+
+- Introduction to single-cell RNA-seq and spatial transcriptomics platforms (Day 1)
+- Single-cell data QC, filtering, and preprocessing in Seurat (Day 1)
+- Integration, normalization, dimensionality reduction, clustering, and marker gene identification (Day 1–2)
+- Cell type annotation, differential expression, and multi-sample/condition comparisons (Day 2)
+- Trajectory inference and cell-cell communication analysis (Day 2)
+- Spatial transcriptomics platforms, QC, and processing — 10x Visium and Xenium (Day 3)
+- Spot/cell deconvolution, marker analysis, and cell type annotation in spatial data (Day 3)
+- Pseudo-bulk analysis, cell-cell communication, and spatial visualization (Day 3)
+
+---
+
+## Datasets
+
+| Dataset | Platform | Used In | Link |
+|---|---|---|---|
+| PBMC 10x dataset | 10x Chromium | Day 1–2 | *add link* |
+| Differentiation time-course | 10x Chromium | Day 2 (trajectory) | *add link* |
+| Visium/Xenium tissue dataset | 10x Visium / Xenium | Day 3 | *add link* |
+
+---
+
+## Abbreviations
+
+| Term | Definition | Term | Definition |
+|---|---|---|---|
+| scRNA-seq | Single-Cell RNA Sequencing | UMAP | Uniform Manifold Approximation and Projection |
+| PCA | Principal Component Analysis | t-SNE | t-Distributed Stochastic Neighbor Embedding |
+| UMI | Unique Molecular Identifier | QC | Quality Control |
+| DE | Differential Expression | SCT | SCTransform (normalization method) |
+| HVG | Highly Variable Genes | FFPE | Formalin-Fixed Paraffin-Embedded (tissue) |
+
+---
+
+## Contact
+
+**UVA Bioinformatics Core**
+📍 *Room/Building — add location*
+✉️ *add contact email*
+🌐 *add core website link*
+
+---
+
+*Materials developed and maintained by the UVA Bioinformatics Core. For educational use.*
+
+
+
+
+
 ### Raw Data Processing using CellRanger
 ([`Processing_scRNAseq_Raw_Data`](Processing_scRNAseq_Raw_Data.md))
 
