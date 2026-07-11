@@ -36,10 +36,10 @@ The majority of each day is spent working directly in **R (Seurat)** on real dat
 
 | | |
 |---|---|
-| **Format** | Lecture + Hands-on Lab (hands-on emphasis) |
+| **Format** | Lecture + Hands-on Practice (hands-on emphasis) |
 | **Duration** | 3 Days |
 | **Morning** | 9:00 – 10:00 AM Lecture |
-| **Afternoon / Lab** | 10:15 AM – 4:00 PM Hands-on Lab |
+| **Afternoon** | 10:15 AM – 4:00 PM Hands-on Practice |
 
 ---
 
