@@ -69,28 +69,6 @@ By the end of this workshop, participants will be able to:
 
 
 
-# Single-Cell RNA-seq Data Analysis
-
-
-## Setup Instructions
-
-1. Clone this repository:
-```bash
-   git clone https://github.com/<your-org>/<your-repo>.git
-   cd <your-repo>
-```
-2. Install R (≥ 4.3) and RStudio, or use the provided cloud notebook environment (UVA Rivanna / Google Colab link — *add link here*).
-3. Restore the R environment:
-```r
-   install.packages("renv")
-   renv::restore()
-```
-4. Launch the Day 1 notebook to confirm your setup:
-```r
-   rmarkdown::render("day1_intro_scRNAseq/notebooks/00_setup_check.Rmd")
-```
-
----
 
 ## Schedule
 
@@ -101,12 +79,12 @@ By the end of this workshop, participants will be able to:
 |---|---|
 | 9:00 – 10:00 AM | Lecture |
 | 10:00 – 10:15 AM | Break |
-| 10:15 AM – 12:00 PM | Lab Part 1 — Environment setup, data loading, QC filtering, ambient correction, doublet detection |
+| 10:15 AM – 12:00 PM | Practice Part 1 — Environment setup, data loading, QC filtering, ambient correction, doublet detection |
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 4:00 PM | Lab Part 2 — Integration, normalization, clustering, UMAP |
+| 12:30 – 4:00 PM | Practice Part 2 — Integration, normalization, clustering, UMAP |
 
 ### Day 2: Downstream Analysis, Annotation & Dynamics
-*Cell Type Annotation · Differential Expression · Trajectory Inference · Cell–Cell Communication*
+*Marker Analysis · Cell Type Annotation · Differential Expression · Trajectory Inference · Cell–Cell Communication*
 
 | Time | Activity |
 |---|---|
@@ -117,7 +95,7 @@ By the end of this workshop, participants will be able to:
 | 12:30 – 4:00 PM | Lab Part 2 — Trajectory inference and cell–cell communication (NicheNet) |
 
 ### Day 3: Spatial Transcriptomics
-*Platform Overview · Spatial QC · Deconvolution · Integration with scRNA-seq · Final Project*
+*Platform Overview · Spatial QC · Normalization · Marker Analysis · cell type annotation · pseudobulk Analyis · cell-cell communication · Wrap-up*
 
 | Time | Activity |
 |---|---|
@@ -125,23 +103,22 @@ By the end of this workshop, participants will be able to:
 | 10:00 – 10:15 AM | Break |
 | 10:15 AM – 12:00 PM | Lab Part 1 — Spatial data QC and processing |
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 3:30 PM | Lab Part 2 — Deconvolution, integration, and figures |
-| 3:30 – 4:00 PM | Group project presentations, Q&A, certificate distribution |
+| 12:30 – 3:30 PM | Lab Part 2 — Seurat Pre-processing, Normalization, and Marker Analyis, Cell type annotation |
+| 3:30 – 4:00 PM | Cell type annotation, pseudobulk analysis, cell-cell communication |
 
 ---
 
 ## Key Topics
 
-- Introduction to single-cell RNA-seq and spatial transcriptomics platforms (Day 1)
-- Single-cell data QC, filtering, and preprocessing in Seurat (Day 1)
-- Integration, normalization, dimensionality reduction, clustering, and marker gene identification (Day 1–2)
+- Introduction to single-cell RNA-seq (Day 1)
+- Single-cell data QC, filtering, and preprocessing in Seurat/Scanpy (Day 1)
+- Integration, Normalization, dimensionality reduction, clustering, and marker gene identification (Day 1–2)
 - Cell type annotation, differential expression, and multi-sample/condition comparisons (Day 2)
 - Trajectory inference and cell-cell communication analysis (Day 2)
-- Spatial transcriptomics platforms, QC, and processing — 10x Visium and Xenium (Day 3)
-- Spot/cell deconvolution, marker analysis, and cell type annotation in spatial data (Day 3)
-- Pseudo-bulk analysis, cell-cell communication, and spatial visualization (Day 3)
+- Introduction to Spatial transcriptomics platforms, QC, and processing — 10x Visium (Day 3)
+- marker analysis, cell type annotation, Spatial visualization (Day 3)
+- pseudo-bulk analysis, cell-cell communication (Day 3)
 
----
 
 ## Datasets
 
