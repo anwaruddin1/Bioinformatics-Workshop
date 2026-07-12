@@ -159,12 +159,10 @@ Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM808
 
 ### 🔬 Day 2 — Downstream Analysis, Annotation & Dynamics
 
+Cell type annotation, differential expression between pre- and post-treatment samples, trajectory inference, and cell-cell communication analysis, built on the Day 1 Cell Ranger output.
+
 - 📄 **[Continuing on Seurat Analyis Day-2 on Google Colab Cloud (Seurat Pipeline)](Day-2_Downstream_scRNAseq_Seurat_Pipeline.md)**
 
-
-📄 **[Day 2 Notebook — Coming Soon]()**
-
-Cell type annotation, differential expression between pre- and post-treatment samples, trajectory inference, and cell-cell communication analysis, built on the Day 1 Cell Ranger output.
 
 ### 🧫 Day 3 — Spatial Transcriptomics
 
