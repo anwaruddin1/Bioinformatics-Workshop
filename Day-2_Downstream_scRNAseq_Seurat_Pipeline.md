@@ -16,7 +16,7 @@ Go to [colab.research.google.com](https://colab.research.google.com) and sign in
 
 ## Step 2: Download and Open the Analysis Notebook
 
-Download the workshop notebook — **[`02_scRNAseq_analysis.ipynb`](02_scRNAseq_analysis.ipynb)** — and open it in Google Colab (**File → Upload notebook**, or drag and drop the file into the Colab interface).
+Download the workshop notebook — **[`02_scRNAseq_analysis.ipynb`](02_scRNAseq_Analysis.ipynb)** — and open it in Google Colab (**File → Upload notebook**, or drag and drop the file into the Colab interface).
 
 ## Step 3: Copy the R Library and Seurat Output from UVA Box
 
