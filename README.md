@@ -164,9 +164,13 @@ Cell type annotation, differential expression between pre- and post-treatment sa
 - 📄 **[Continuing on Seurat Analyis Day-2 on Google Colab Cloud (Seurat Pipeline)](Day-2_Downstream_scRNAseq_Seurat_Pipeline.md)**
 
 
-### 🧫 Day 3 — Spatial Transcriptomics
+### 🧫 Day 3 — Spatial Transcriptomics: Processing the Raw Dataset
 
-📄 **[Day 3 Analysis & Notebook — Coming Soon]()**
+- 📄 **[Processing Raw spatial Data with Space Ranger on UVA Rivanna](Processing_spatial_Raw_Data.md)**
+
+Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
+
+- 📄 **[Day 3 Analysis & Notebook — Coming Soon]()**
 
 Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, cell-cell communication.
 
