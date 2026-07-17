@@ -153,7 +153,7 @@ This workshop builds sequentially — Day 1's Cell Ranger output feeds directly 
 
 Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM8086070, GSM8086066) through Cell Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
 
-- 📄 **[Processing Cell Ranger on Google Colab Cloud (Seurat Pipeline)](Downstream_scRNAseq_Seurat_Pipeline.md)**
+- 📄 **[Processing Cell Ranger Output on Google Colab Cloud (Seurat Pipeline)](Downstream_scRNAseq_Seurat_Pipeline.md)**
 
 
 
@@ -170,7 +170,8 @@ Cell type annotation, differential expression between pre- and post-treatment sa
 
 Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
 
-- 📄 **[Day 3 Analysis & Notebook — Coming Soon]()**
+- 📄 **[Processing Space Ranger Output on Google Colab Cloud (Seurat Pipeline)](Downstream_spatial_Seurat_Pipeline.md)**
+
 
 Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, cell-cell communication.
 
