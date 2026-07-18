@@ -1,4 +1,4 @@
-# Single-Cell and Spatial Transcriptomics Data Analyis Workshop
+# Single-Cell and Spatial Transcriptomics Data Analysis Workshop
 
 **UVA Bioinformatics Core — 3-Day Hands-On Training Program**
 
