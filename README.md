@@ -170,7 +170,7 @@ Cell type annotation, differential expression between pre- and post-treatment sa
 
 Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
 
-- 📄 **[Processing Space Ranger Output on Google Colab Cloud (Seurat Pipeline)](Downstream_spatial_Seurat_Pipeline.md)**
+- 📄 **[Processing Space Ranger Output on Google Colab Cloud (Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
 
 
 Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, cell-cell communication.
