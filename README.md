@@ -126,7 +126,7 @@ By the end of this workshop, participants will be able to:
 | Analysis | Dataset | Platform | Data Source | Used In | Link |
 |---|---|---|---|---|---|
 |scRNA-seq| Lin SH et al., Med, 2025 Oct 10;6(10):100752 | 10x Genomics | GEO/SRA Datasets | Day 1–2 | *[PRJNA1078290](https://www.ncbi.nlm.nih.gov/search/all/?term=PRJNA1078290)* |
-|Spatial Data| Visium tissue dataset | 10x Visium | 10x Genomics | Day 3 | *[link](https://www.10xgenomics.com/datasets/human-prostate-cancer-adenocarcinoma-with-invasive-carcinoma-ffpe-1-standard-1-3-0)* |
+|Spatial Data| Visium tissue dataset | 10x Genomics - Visium | 10x Genomics Datasets | Day 3 | *[link](https://www.10xgenomics.com/datasets/human-prostate-cancer-adenocarcinoma-with-invasive-carcinoma-ffpe-1-standard-1-3-0)* |
 
 ---
 
